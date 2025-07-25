@@ -8,8 +8,8 @@ import sys
 # or a secure configuration management system for credentials.
 HOSTNAME = '10.73.70.25'
 USERNAME = 'admin'
-PASSWORD = 'your_ssh_password'  # The password for the 'admin' user to SSH into the device
-SUDO_PASSWORD = 'your_sudo_password' # The password required by 'sudo su' to elevate privileges
+PASSWORD = 'THS!5V3r5@vmsP@55'  # The password for the 'admin' user to SSH into the device
+SUDO_PASSWORD = 'THS!5V3r5@vmsP@55' # The password required by 'sudo su' to elevate privileges
 COMMAND_TO_RUN = 'k get service -A |grep redis' # The command to execute after becoming root
 
 def ssh_and_run_command(hostname, username, password, sudo_password, command_to_execute):
